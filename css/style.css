@@ -1,0 +1,603 @@
+@font-face {
+    font-family:    
+    Montserrat;
+    /* src: url(../Fonts/Inter/Inter-Italic-VariableFont_opsz\wght.ttf); */
+    src: url("/fonts/Montserrat-Italic-VariableFont_wght.ttf");
+    font-family: montserrat;
+  }
+  
+  :root {
+    --color-primary: #17C2EC;
+    --color-secondary: #FFFFFF;
+    --color-accent: #232654;
+    --color-heading: #0b153c;
+    --color-body: #e1e1e1;
+    --color-body-darker: #dfe1e1;
+    --color-border: #ccc;
+    --color-grey:#6a6e6e;
+    --themost-font-wight: 700;
+    --themost-text-align: center;
+    
+  }
+  
+  /* Typograpghy */
+  html {
+    /* 62.5% of 16px is 10px */
+    font-size: 62.5%;
+  }
+  body {
+    font-family: inter_, Arial, Helvetica, sans-serif;
+    color: var(--color-body);
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .down{
+    background-color: var(--color-primary);
+    height: 5rem;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    font-weight: 700;
+    /* padding-top: 1.6rem; */
+  }
+ 
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 1.8rem;
+    }
+    h1 {
+      font-size: 8rem;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 2.4rem;
+    }
+  }
+  .linl-arrow{
+    color: var(--color-accent);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .badge{
+    font-size: 1.2rem;
+    border-radius:2rem ;
+    width: 8.1rem ;
+    height: 2.5rem ;
+  }
+  .badge--primary{
+    background-color: var(--color-primary);
+  }
+  .badge--secondary{
+    background-color: var(--color-secondary);
+  }
+  .badge--small{
+    background-color: var(--color-secondary);
+  }
+  .list_2{
+    padding: l;
+    list-style-type: none;
+   
+  }
+  
+  .cardsi{
+    width: 37.5rem;
+    height: 85.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0px 35px 0px 35px;
+  }
+  .cards{
+    width: 30.5rem;
+    height: 19.1rem;
+    border-radius: 1.355rem;
+
+  }
+  .first--card{
+    background-color: var(--color-body);
+
+  }
+  .second--card{
+    background-color: var(--color-primary);
+  }
+  .third--card{
+    background-color: #c4c4c480;
+  }
+  .imglast{
+    width: 5.338rem;
+    height: 5.338rem;
+    border-radius: 1.355rem;
+  }
+  .col1{
+    width: 20.892rem;
+    height: 5.338rem;
+    margin: 22.88px 73px 128px 22px;
+  }
+  .spancard{
+    font-weight: var(--themost-font-wight);
+    text-align: center;
+  }
+  .s--cards1{
+    font-size: 1.355rem;
+    line-height: 1.652rem;
+    color: black;                                        
+  }
+  
+  .s--cards2{
+    font-size: 1.528rem;
+    line-height: 1.863rem;
+    color: white;
+  }
+  .s--cards3{
+    font-size: 1.525rem;
+    line-height: 1.859rem;
+    color: black;
+  }
+  .place{
+    font-weight: var(--themost-font-wight);
+    text-align: var(--themost-text-align);
+  }
+  .cards_place1{
+    font-size: 0.949rem;
+    line-height: 1.156rem;
+    color: #6b6d6e;
+  }
+  .cards_place2{
+    
+    font-size: 1.007rem;
+    line-height: 1.304rem;
+    color: #c5f0fa;
+  }
+  .cards_place3{
+    font-size: 1.068rem;
+    line-height: 1.301rem;
+    color: var(--color-grey);
+  }
+  .qoute{
+    font-weight: 500;
+  }
+  .q1{
+    font-size: 1.22rem;
+    line-height: 1.487rem;
+    color: #5a5a5a;
+  }
+  .q2{
+    font-size: 1.375rem;
+    line-height: 1.676rem;
+    color: #c5f0fa;
+  }
+  .q3{
+    font-size: 1.372rem;
+    line-height: 1.673rem;
+    color: #575859;
+  }
+  .footer{
+    width: 37.5rem;
+    height: 35.1rem;
+    background-color: #0b153c;
+    
+  }
+  ul{
+    list-style: none;
+  }
+  .item{
+    width: 7.7rem;
+    height: 1.7rem;
+    background: linear-gradient(45deg, #ffffff 0.5 , #ffffff);
+    transition: opacity 0.7s ease;
+    cursor: pointer;
+  }
+  .footer:hover>:not(:hover){
+    opacity: 0.2;
+  }
+  .first{
+    width: 37.5rem;
+    height: 110.4rem;
+    background-color: var(--color-heading);
+  }
+  .section{
+    
+    margin-left: 3.5rem;
+  }
+  .first_first{
+    margin-top: 5rem;
+  }
+  .first_two{
+    margin-top: 12.7rem;
+  }
+  .mini-header{
+    font-size: 1.8rem;
+    line-height: 2.197rem;
+    font-weight: 700;
+    color: white;
+    /* position: relative; */
+  }
+  .small_line{
+    width: 7.968rem;
+    height: 2.39px;
+    color: var(--color-primary) ;
+  }
+  .instructions{
+    font-size: 1.2rem ;
+    list-style: 1.462rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  .part_white{
+    font-size: 2.4rem;
+    list-style: 2.926rem;
+    font-weight: 800;
+    color: white
+  }
+  .part_blue{
+    font-size: 2.4rem;
+    list-style: 2.926rem;
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+  .p1{
+    font-size: 1.4rem;
+    list-style: 1.707rem;
+    font-weight: 700;
+  }
+  .buttons_flex{
+    display: flex;
+    gap: 2rem;
+  }
+  .btnup {
+    width: 13.8rem;
+    height: 5rem;
+    color: var(--color-secondary);
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.707rem;
+    padding-top: 2rem;
+    cursor: pointer;
+  }
+  .one-1{
+    background-color: var(--color-primary);
+   
+  }
+  .two-2{
+    background-color: var(--color-accent);
+    border: 0.2rem bold var(--color-primary);
+    
+  }
+  .first_images{
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+  }
+  .main_image1{
+    width: 25.6rem;
+    height: 27.4rem;
+    position: absolute;
+  }
+  .corona{
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+  }
+  .h31{
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+  }
+  .h311{
+    font-weight: 700;
+    color: white;
+  }
+  .h322{
+    font-weight: 600;
+    color: #ffffff80;
+  }
+  .hwithcard{
+    margin-top: 23rem;
+  }
+  .lonely_card{
+    width: 24.2rem;
+    height: 30.6rem;
+    background-color: #c4c4c416;
+    border-radius: 20px 20px 0px 0px;
+     padding: 20px 91px 80px 10px; 
+  }
+  .mid {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  .betweensections{
+    width: 37.5rem;
+    height: 3.906rem;
+    background-color: #ffffff80;
+  }
+  .vaccinename{
+    width: 7.248rem;
+  }
+  .name1{
+    height: 1.667rem;
+  }
+  .name2{
+    height: 2.962rem;
+  }
+  .name3{
+    height: 2.055rem;
+  }
+  .name4{
+    height: 1.454rem;
+  }
+  .second{
+    width: 37.5rem;
+    height: 49.7rem;
+    background-color: #0b153c;
+  
+  }
+  .main_div2{
+    width: 30.5rem;
+    height: 38.1rem;
+    background-color: #c4c4c41a;
+    margin: 84px 35px 32px;
+    border-radius: 20px;
+  }
+  .minix{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.219rem;
+    text-align: center;
+  }
+  .mini2{
+    width: 28rem;
+    height: 5rem;
+    border: 3px bold;
+    border-radius: 1rem;
+    margin: 0px 12px;
+  }
+  .div21{
+    border-color: #17C2EC;
+   
+
+  }
+
+  .div22{
+    border-color: #c4c4c4;
+    
+  }
+  .div23{
+    border-color: #c4c4c4;
+    color: #17C2EC;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+  }
+  a{
+    text-decoration: none;
+  }
+  .firstanchor{
+    color: #17C2EC;
+  }
+  .third{
+    width: 37.5rem;
+    height: 102.6rem;
+    background-color: #0b153c;
+  }
+  .div3{
+    width: 30rem;
+    height: 15.8rem;
+    margin-left: 35px;
+    width: 30rem;
+    height: 15.8rem;
+  }
+  .div3h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.926rem;
+    color: white;
+
+  }
+  .div3p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    color: #ffffff80;
+  }
+  .specialcrds{
+    width: 27.6rem;
+    height: 74.4rem;
+    display: flex;
+
+    gap: 10px;
+    margin-left: 35px;
+    
+  }
+  .specialcard1{
+    width: 27.6rem;
+    height: 28rem;
+    color: #c4c4c433;
+    border-radius: 2rem 8rem 2rem 2rem;
+  }
+  .spca{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+  }
+  .num1{
+    color: #17C2EC;
+  }
+  .num2{
+    color: white;
+  }
+  .Spca{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    color: #ffffff80;
+  }
+  .spp{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.463rem;
+    color: white;
+  } 
+  .sh4{
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.463rem;
+    color: #17C2EC;
+  }
+  .normalcard{
+    width: 18.8rem;
+    height: 20.2rem;
+    border: 2.99px #ffffff80 bold;
+    border-radius: 2rem;
+  }
+  .section4{
+    width: 37.5rem;
+    height: 109.5rem;
+  }
+  .fourthimage{
+    width: 37.5rem;
+    height: 109.5rem;
+    opacity: 25%;
+    position: absolute;
+  }
+  .h41{
+    font-size: 2.4rem;
+    line-height: 2.926rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    position: relative;
+  }
+  .h5_1{
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    font-weight: 700;
+    position: relative;
+  }
+  .fourthimage2{
+    width: 28.9rem;
+    height: 41.8rem;
+    border-radius: 1.521rem;
+    background-color: #0b153c;
+    margin-left: 3.5rem;
+    position: relative;
+  }
+  .normalh{
+   color: white;
+   /* margin-top: 16.8rem; */
+  }
+  .inputh{
+   color: black;
+  }
+  .div42{
+    margin-left: 3.5rem;
+  }
+  .transparent_button{
+   
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    background-color: #c4c4c440;
+    border-radius: 1rem;
+    outline: none;
+    margin-left: 8.8rem;
+  }
+  .inputsec4{
+    width: 30.5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    color: #0b153c26;
+    position: relative;
+    padding-left: 2rem;
+    
+  }
+  .p4{
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    font-weight: 500;
+    color: #00000080;
+    position: relative;
+  }
+  .registered{
+   color: #00000080;
+  }
+  .check{
+   color: var(--color-primary);
+  }
+  .fifth_section{
+    width: 37.5rem;
+    height: 34.6rem;
+    background-color: #0b153c;
+  }
+  .fifth_image{
+    width: 36.3rem;
+    height: 16.7rem;
+    
+  }
+  .two_things{
+    /* margin-bottom: 2.5rem; */
+    margin-left: 5.7rem;
+  }
+  .h_im{
+    font-size: 1.2rem;
+    line-height: 1.463rem;
+  }
+  .h_im2{
+    font-size: 2.4rem;
+    line-height: 2.926rem;
+  }
+  .sar{
+    font-weight: 700;
+    color: white;
+  }
+  .sak{
+    font-weight: 500;
+    color: #ffffff80;
+    margin-left: 4rem;
+  }
+  .last_section{
+    width: 37.5rem;
+    height: 85.9rem;
+  }
+  .last_main_image{
+    width: 37.5rem;
+    height: 85.9rem;
+    opacity: 25%;
+    position: absolute;
+  }
+  .last11{
+    font-size: 1.4rem;
+    line-height: 1.707rem;
+    color: #17C2EC;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    margin-right: 14.4rem;
+  }
+  .last12{
+    font-size: 2.4rem;
+    line-height: 2.926rem;
+    color: black;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+  }
+  .lastp{
+    font-size: 1.2rem;
+    line-height: 1.463rem;
+    color: #00000080;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+  }
+
+
